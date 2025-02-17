@@ -10,6 +10,7 @@ from PIL import Image, ImageFilter
 from model.pipeline import CatVTONPipeline
 
 #testing
+#testing2
 class InferenceDataset(Dataset):
     def __init__(self, args):
         self.args = args
